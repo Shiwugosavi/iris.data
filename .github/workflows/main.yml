@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-       -name: show current working directory 
-        run: pwd
+       - name: show current working directory 
+         run: pwd
 
     
