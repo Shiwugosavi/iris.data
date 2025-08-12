@@ -18,8 +18,8 @@ jobs:
            distribution: 'temurin'
            java-version: '17'
 
-       - name: Compile java program
-         run: java programOne.java programTwo.java
+       - name: Compile java programs
+         run: javac programOne.java programTwo.java
 
        - name: run programOne
          run: java programOne
