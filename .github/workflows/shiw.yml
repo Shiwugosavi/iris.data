@@ -5,7 +5,7 @@ on:
          - main 
 
 jobs:
-  run-all:
+  run-python:
     runs-on: ubuntu-latest
 
     steps:
