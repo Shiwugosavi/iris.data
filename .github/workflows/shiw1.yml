@@ -23,7 +23,7 @@ jobs:
 
       # Compile both Java files
       - name: Compile Java Programs
-        run: javac ProgramOne.java ProgramTwo.java
+        run: javac src/ProgramOne.java src/ProgramTwo.java
 
       # Run first Java program
       - name: Run ProgramOne
