@@ -2,7 +2,9 @@ name: Run Java and Python Programs
 on:
    push:
       branches:
-               - main
+       - main
+   schedule:
+       -corn: "2 0 * *" 
 jobs:
    run-all:
     runs-on: ubuntu-latest
