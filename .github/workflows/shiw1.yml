@@ -47,6 +47,3 @@ jobs:
       - name: Run script_two.py
         run: python script_two.py
 
-# Run second Python script
-     - name: Run script_two.py
-       run: python script_two.py
