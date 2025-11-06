@@ -1,0 +1,3 @@
+#Practicle Exam
+#Write a GitHub action with cron to run a python test job every 5 minutes andlog the reslut to the Action tab
+
