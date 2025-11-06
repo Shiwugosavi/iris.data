@@ -1,0 +1,18 @@
+#Practicle Exam 
+#Write a Github action with corn to run a python test job every 5 minutes and log the result to the Action tab
+
+name: Basic Commands 
+on:
+   push:
+      branches:
+         - main 
+    
+
+jobs:
+  demo-commands1:
+    runs-on: ubuntu-latest
+    
+
+    steps:
+       - name: show current working directory 
+         run: pwd
