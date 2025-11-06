@@ -6,7 +6,10 @@ on:
    push:
       branches:
          - main 
-         corn: "0 5 ***"
+
+      schedule:
+         - cron: "*/5 * * * *"
+         
     
 
 jobs:
